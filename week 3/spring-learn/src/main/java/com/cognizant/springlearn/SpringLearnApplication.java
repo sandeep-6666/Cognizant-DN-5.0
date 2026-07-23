@@ -23,7 +23,7 @@ public class SpringLearnApplication {
 
 		displayDate();
 	}
-
+//function to display date
 	public static void displayDate() {
 		ApplicationContext context = new ClassPathXmlApplicationContext("date-format.xml");
 
